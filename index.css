@@ -1,0 +1,117 @@
+#nav {
+    background-color: rgba(255, 0, 0, 1);
+    z-index: 10;
+}
+
+.landing-page {
+    background-image: url("./content/nico-baum-DnwqLGfuBIA-unsplash.jpg");
+    margin: 0 auto;
+    height: 105vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#catch-phrase {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.second-tag-line {
+    margin-top: 3.5rem;
+}
+
+.pricing-section {
+    text-align: center;
+    min-height: 105vh;
+}
+
+.pricing-section h2 {
+    margin-top: 4rem;
+}
+
+.pricing-cards {
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 20px;
+}
+
+.card {
+    margin: 20px auto;
+}
+
+.card li {
+    list-style: none;
+}
+
+.current-inventory {
+    text-align: center;
+}
+
+.inventory-card {
+    margin: 0 auto;
+    height: 105vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#six-five-vette {
+    background-image: url("./content/josh-berquist-6yhJ0fT3NZo-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+#six-five-vette h2 {
+    padding-top: 2rem;
+}
+
+#seven-three-vette {
+    background-image: url("./content/joppe-spaa-CW_K7JUhvaI-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+#c-seven {
+    background-image: url("./content/bailey-alexander-iOjSzJUsqfs-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+#c-eight {
+    background-image: url("./content/kyrell-OjMdfQOYNFs-unsplash.jpg");
+    background-position: 50% 85%;
+}
+
+#ducati-superbike {
+    background-image: url("./content/massimiliano-morosinotto-t-1Uf29mISY-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+#ducati-monster {
+    background-image: url("./content/aman-shrestha-z6bIIeQDHY0-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+#ducati-scrambler {
+    background-image: url("./content/jane-duursma-eD5eD7OVdMQ-unsplash.jpg");
+    background-position: 50% 50%;
+}
+
+.vehicle-info {
+    
+    display: flex; 
+    flex-direction: row;
+    /* flex-wrap: wrap; we don't want this */ 
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+
+}
+
+.vehicle-info p {
+    margin: 1rem;
+    font-size: 2vw;
+}
